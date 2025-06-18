@@ -1,63 +1,39 @@
-=== GEIGER COUNTER DATA ANALYSIS ===
-Processing file: 7_14_2019.txt
+Successfully read 176 radiation samples.
+Maximum counts per minute found: 45
 
-Loaded 176 valid radiation measurements
-Maximum radiation detected: 45 CPM
-
-Displaying all readings >= 40 CPM:
-Date Time                CPM
-=======================  ===
-2018-05-15 09:33         40
-2018-05-15 09:35         42
-2018-05-15 09:38         41
-2018-05-15 09:41         43
-2018-05-15 09:45         41
-2018-05-15 09:47         44
-2018-05-15 09:49         40
-2018-05-15 09:51         42
-2018-05-15 09:54         45
-2018-05-15 09:55         41
-2018-05-15 09:58         40
-2018-05-15 10:00         43
-2018-05-15 10:03         41
-2018-05-15 10:05         44
-2018-05-15 10:07         42
-2018-05-15 10:09         40
-2018-05-15 10:12         45
-2018-05-15 10:13         41
-2018-05-16 08:21         42
-2018-05-16 08:23         40
-2018-05-16 08:25         43
-2018-05-16 08:27         41
-2018-05-16 08:29         44
-2018-05-16 08:31         42
-2018-05-16 08:33         40
-2018-05-16 08:36         45
-2018-05-16 08:37         41
-2018-05-16 08:40         43
-2018-05-16 08:42         40
-2018-05-16 08:44         42
-2018-05-16 08:46         41
-2018-05-16 08:48         44
-2018-05-16 08:50         43
-
-=== CAMPING TRIP ANALYSIS ===
-Days with elevated radiation readings:
-Date          High Readings Count
-==========    ==================
-2018-05-15    18
-    ^^^ POTENTIAL CAMPING DAY - Sustained high readings!
-2018-05-16    15
-    ^^^ POTENTIAL CAMPING DAY - Sustained high readings!
-
-ANALYSIS CONCLUSION:
-Camping trip dates are identified by consecutive days with
-numerous high radiation readings (8+ per day), indicating
-extended time at 4900ft elevation where cosmic radiation
-exposure is approximately double that at sea level.
-
-PROBABLE CAMPING TRIP PERIODS:
-Multi-day camping trip detected:
-  Start: 2018-05-15
-  End:   2018-05-16
-  Duration: 2 days
+Radiation samples within 5 counts of maximum (45):
+Date			Counts per minute
+----------------------------------------
+2018-05-15 09:33		40
+2018-05-15 09:35		42
+2018-05-15 09:38		41
+2018-05-15 09:41		43
+2018-05-15 09:45		41
+2018-05-15 09:47		44
+2018-05-15 09:49		40
+2018-05-15 09:51		42
+2018-05-15 09:54		45
+2018-05-15 09:55		41
+2018-05-15 09:58		40
+2018-05-15 10:00		43
+2018-05-15 10:03		41
+2018-05-15 10:05		44
+2018-05-15 10:07		42
+2018-05-15 10:09		40
+2018-05-15 10:12		45
+2018-05-15 10:13		41
+2018-05-16 08:21		42
+2018-05-16 08:23		40
+2018-05-16 08:25		43
+2018-05-16 08:27		41
+2018-05-16 08:29		44
+2018-05-16 08:31		42
+2018-05-16 08:33		40
+2018-05-16 08:36		45
+2018-05-16 08:37		41
+2018-05-16 08:40		43
+2018-05-16 08:42		40
+2018-05-16 08:44		42
+2018-05-16 08:46		41
+2018-05-16 08:48		44
+2018-05-16 08:50		43
